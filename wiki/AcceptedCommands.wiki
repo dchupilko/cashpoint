@@ -5,7 +5,7 @@ Syntax: *`+ <currency value number>`*
 
 _`<currency>`_ is 3 uppercase letters, any combination is valid
 
-_`<value>`_ is the value of notes. Valid values are 10n and 5*10n, 0<=n<=3 (although some currencies may have larger value notes and some odd values like 2,3,20,25, we do not allow them for simplification).
+_`<value>`_ is the value of notes. Valid values are 10n and 5*10n, 0<=n<=3
 
 _`<number>`_ is any positive integer
 
@@ -15,7 +15,7 @@ Reply: OK if successful, ERROR if validation fails
 
 Example: 
 
-              + USD 100 30
+              _+ USD 100 30_
 
 OK
 
@@ -39,11 +39,11 @@ ERROR if the amount is unavailable (cash remains unchanged).
 
 Example:
 
-              - USD 2000
+              _- USD 2000_
 
-              `100 20`
+              _100 20_
 
-              OK
+              _OK_
 
  
 
