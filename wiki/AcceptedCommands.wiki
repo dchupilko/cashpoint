@@ -59,4 +59,4 @@ followed by the line OK
 
 Semantics: what is currently in the cash
 
-Example: see in sample session
+Example: see in [SampleSession]
